@@ -27,10 +27,20 @@
 # # Display the equation and the total
 # print(f"Equation: {equation}")
 # print(f"Total: {total}")
-num = int(input())
-fact=1
-#print(factorial(num))
-for i in range(1,num+1):
+# num = int(input())
+# fact=1
+# #print(factorial(num))
+# for i in range(1,num+1):
 
-    fact = fact*i
-print(fact)
+#     fact = fact*i
+# print(fact)
+n = int(input("enter a number:"))
+d = int(input("enter a number:"))
+b = int(bin(n))
+l=[]
+for i in range(1,b+1):
+    l.append(b.strip("0b")) 
+print(l)
+a = l[-2]
+print(l.remove(a))
+str()
