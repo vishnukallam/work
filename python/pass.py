@@ -1,5 +1,5 @@
 # import getpass
 # dir(getpass)
 
-import numpy 
+import numpy
 print(dir(numpy))
