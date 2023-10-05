@@ -20,7 +20,6 @@ def func():
 
 root = Tk()
 root.geometry('700x500')
-# root.config(bg='red')
 root.title('STUDENT REGISTRATION FORM')
 
 
@@ -29,16 +28,6 @@ frame1 = Frame(root)
 label1 = Label(frame1, text='Ramachandra College Of Engineering, Eluru')
 label1.config(font=('Arial Rounded MT Bold', 23), bg='red')
 label1.grid(row=0, column=0, ipadx=15, ipady=15)
-
-# profile photo
-'''img = Image.open('download.png')
-img = img.resize((150, 150))  # to use resize function we import from PIL import ImageTk, Image
-img = ImageTk.PhotoImage(img)
-label2 = Label(frame1, image=img)
-label2.grid(row=1, column=0, ipadx=15, ipady=15)
-frame1.pack()'''
-
-
 # Roll number
 frame2 = Frame(root)
 roll = Label(frame2, text='Roll :', font=('Arial Rounded MT Bold', 20))
