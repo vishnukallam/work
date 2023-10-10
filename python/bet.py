@@ -12,3 +12,5 @@
 
 # # Convert the audio to WAV format
 # audio.export("output.wav", format="wav")
+x,y = input(),input()
+print(int(x*y))
