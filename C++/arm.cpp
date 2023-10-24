@@ -1,27 +1,30 @@
-#include<iostream>
+#include"iostream"
 using namespace std;
-class a{
+class area{
+    private:
+        int side;
     public:
-        int i = 7;
-        void show(){
-            cout<< i;
+        area(){
+
+        }
+        area(int s){
+            side =s;
+            printf("the address:%p",this);
+        }
+        int square(){
+            printf("enter the area of the square:");
+            scanf("%d",&side);
+            int ar = side*side;
+            return ar;
         }
 };
-class b: virtual public a{
-    public :
-        int j;
-};
-class c: virtual public a{
-    public:
-    int k;
-};
-class d : public b, public c{
-    public:
-    int j;
-};
 int main(){
-    d object;
-    object.i = 6;
-    object.show();
+    area obj(3);
+    area *b=&obj;
+    int c=(b)->square();
+    printf("the area is %d \n",c);
+    printf("the area is %p",&obj);
+    printf("%p",obj);
+    
     return 0;
 }

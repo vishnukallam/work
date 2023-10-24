@@ -1,4 +1,4 @@
-import pygame
+# import pygame
 # os.startfile(r"E:\ZORO\Vishnudluffy\python\music")
 # folder_path = "E:\ZORO\Vishnudluffy\python\music"
 # pygame.init()
@@ -10,14 +10,15 @@ import pygame
 #     while pygame.mixer.music.get_busy():
 #         pass
 # pygame.quit()
-pygame.init()
-screen = pygame.display.set_mode((800 , 700))
-pygame.display.set_caption("My new game.")
-icon = pygame.image.load("naruto.png")
-pygame.display.set_icon(icon)
-running = True
-while running:
-    for event in pygame.event.get():
-        if event.type == pygame.QUIT:
-            running = False
-pygame.quit()
+# pygame.init()
+# screen = pygame.display.set_mode((800 , 700))
+# pygame.display.set_caption("My new game.")
+# icon = pygame.image.load("naruto.png")
+# pygame.display.set_icon(icon)
+# running = True
+# while running:
+#     for event in pygame.event.get():
+#         if event.type == pygame.QUIT:
+#             running = False
+# pygame.quit()
+print("Hello world")
