@@ -23,22 +23,22 @@ from tkinter import *
 window = Tk()
 window.title('"THE WINDOW"')
 window.geometry('1180x1180')
-#label1
-l=Label(text='Name:',font=('Times New Roman',20))
-l.grid(column=1,row=2)
-#entry1
-entry= Entry(window,font=('Times New Roman',20))
-entry.grid(column=3,row=2)
-#label2
-l=Label(text='Dept.:',font=('Times New Roman',20))
-l.grid(column=1,row=4)
-#entry2
-entry0=Entry(window,font=('Times New Roman',20))
-entry0.grid(column =3 , row = 4)
-#Btton1
-hello1 = Button(window,text="SUBMIT",bg='red',fg='white',width='10')
-hello1.grid(column=3,row=8)
-#Button2
-hello = Button(window,text="CLEAR",bg='orange',fg='white',width='10')
-hello.grid(column=3,row=10)
+# label1
+l = Label(text='Name:', font=('Times New Roman', 20))
+l.grid(column=1, row=2)
+# entry1
+entry = Entry(window, font=('Times New Roman', 20))
+entry.grid(column=3, row=2)
+# label2
+l = Label(text='Dept.:', font=('Times New Roman', 20))
+l.grid(column=1, row=4)
+# entry2
+entry0 = Entry(window, font=('Times New Roman', 20))
+entry0.grid(column=3, row=4)
+# Btton1
+hello1 = Button(window, text="SUBMIT", bg='red', fg='white', width='10')
+hello1.grid(column=3, row=8)
+# Button2
+hello = Button(window, text="CLEAR", bg='orange', fg='white', width='10')
+hello.grid(column=3, row=10)
 window.mainloop()
