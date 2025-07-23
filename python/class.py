@@ -41,4 +41,4 @@ hello1.grid(column=3, row=8)
 # Button2
 hello = Button(window, text="CLEAR", bg='orange', fg='white', width='10')
 hello.grid(column=3, row=10)
-window.mainloop()
+window.mainloop()  # hello = Button(window, text="EXIT", bg='green', fg='white', width='10')
